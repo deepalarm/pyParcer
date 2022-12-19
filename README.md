@@ -20,7 +20,7 @@ Depature ban.py
 
 369.py
 
-# Инициализурием COM подключение
+# Initialization COM connection to the data base
 conn_str = "Srvr='SERVER EITH DATA BASE';Ref='_______ ';Usr='TYPE USER NAME HERE';Pwd='TYPE PASSWORD HERE';"
 pythoncom.CoInitialize()
 V83 = win32com.client.Dispatch("V83.COMConnector").Connect(conn_str)
