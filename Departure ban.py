@@ -23,11 +23,11 @@ def connectin_init ():
         driver.find_element(By.ID, "login").click()
         print ("Укажите имя пользователя")
   #  login = input()
-        driver.find_element(By.ID, "login").send_keys("9241980666")
+        driver.find_element(By.ID, "login").send_keys("LOGIN")
         driver.find_element(By.ID, "password").click()
         print("Укажите пароль")
    # password = input()
-        driver.find_element(By.ID, "password").send_keys("Meganeedle_7890")
+        driver.find_element(By.ID, "password").send_keys("PSWRD")
         time.sleep(1)
 
     # Входим в систему госуслуги
